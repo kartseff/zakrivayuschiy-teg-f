@@ -1,2 +1,2 @@
-git@github.com:kartseff/zakrivayuschiy-teg-f.git
+git@github.com:kartseff/zakrivayuschiy-teg-f
 https://kartseff.github.io/zakrivayuschiy-teg-f/
