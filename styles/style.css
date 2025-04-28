@@ -9,11 +9,6 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-
-* {
-  outline: red 1px solid;
-}
-
 .page {
   display: flex;
   flex-direction: column;
