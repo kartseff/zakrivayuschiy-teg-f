@@ -10,6 +10,10 @@
 
 */
 
+* {
+  outline: red 1px solid;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -36,7 +40,7 @@
   gap: 20px;
   margin-block-start: 100px;
   margin-block-end: 100px;
-  inline-size: min(100vw, 700px);
+  inline-size: min(100%, 700px);
   font-family: var(--accent-font-family);
   padding-top: clamp(120px, calc(120/375*100vw), 128px);
   padding-bottom: clamp(120px, calc(120/375*100vw), 128px);
@@ -53,8 +57,14 @@
   font-size: clamp(10px, calc(14/375*100vw), 23px);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
-  inline-size: min(100vw, 700px);
+  inline-size: min(100%, 700px);
   background-color: white;
   border: 2px solid black;
   margin-block-end: 50px;
@@ -98,7 +108,7 @@
   }
 }
 
-.van-image {
+.van-image-object-position {
   object-position: 90%;
 }
 
@@ -204,7 +214,7 @@
 
 .like-icon.is-liked .contour {
   fill: red;
-  transition-delay: 0.06s;
+  transition-delay: 0.11s;
 }
 
 .like-icon.is-liked .heart {
